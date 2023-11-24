@@ -1,0 +1,210 @@
+button:hover {
+  cursor: pointer;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.8125rem;
+  border-bottom: 0.0625rem solid #c4c4c4;
+}
+header #navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 90rem;
+  width: 100%;
+}
+.logo h2 {
+  color: #1090cb;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.9375rem;
+  padding: 20px;
+}
+header #navbar .header-menu {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 17.0625rem;
+  width: 100%;
+}
+header #navbar .header-menu #home {
+  position: absolute; 
+  top: 2.375rem;
+  left: -0.5625rem;
+}
+header #navbar .header-menu #about {
+  position: absolute;
+  top: 2.375rem;
+  left: 5.3125rem;
+}
+header #navbar .header-menu #services {
+  position: absolute;
+  left: 12.5rem;
+  top: 2.375rem;
+  
+}
+header #navbar .header-menu a {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  margin-top: 2.5rem;
+}
+header #navbar .header-menu .first {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #1090cb;
+}
+header #navbar .contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 7.8125rem;
+  width: 100%;
+
+}
+header #navbar .contact-us button {
+  width: 7.8125rem;
+  height: 2.5625rem;
+  flex-shrink: 0;
+  border-radius: 0.375rem;
+  background: #1090cb;
+  border: none;
+  color: #fff;
+  line-height: normal;
+  font-family: Poppins;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom: 1px solid #d2d2d2;
+}
+footer #footer-main {
+  display: flex;
+  max-width: 77.4375rem;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5.4375rem;
+  padding-bottom: 53px;
+}
+footer #footer-main .first-footerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 19.4375rem;
+  width: 100%;
+  gap: 1.6875rem;
+}
+footer #footer-main .first-footerBox div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5625rem;
+}
+footer #footer-main .first-footerBox h2 {
+  color: #00329b;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer #footer-main .first-footerBox div p {
+  color: #515151;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer #footer-main .second-footerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.9375rem;
+}
+footer #footer-main .second-footerBox h2 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer #footer-main .second-footerBox div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+footer #footer-main .second-footerBox div a {
+  color: #515151;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186.3%;
+}
+footer #footer-main .third-footerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 17.625rem;
+  width: 100%;
+  gap: 1.25rem;
+}
+footer #footer-main .third-footerBox h2 {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.0625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+footer #footer-main .third-footerBox div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6875rem;
+}
+footer #footer-main .third-footerBox div p {
+  color: #515151;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer #footer-main .fourth-footerBox {
+  display: flex;
+  justify-content: space-between;
+}
+footer #footer-main .fourth-footerBox img {
+  margin-top: 7.3125rem;
+}
+.last-sentence {
+  display: flex;
+  justify-content: center;
+  color: #686868;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 190.6%;
+  margin-top: 1.8125rem;
+  padding-bottom: 27px;
+}
