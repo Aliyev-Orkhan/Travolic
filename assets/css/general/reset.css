@@ -101,9 +101,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
   overflow-x: hidden;
-  width: 1350px;
 }
 ol,
 ul {
